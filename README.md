@@ -3,10 +3,13 @@ This repo is to enable change documentation following mod edits for a valhiem se
 Current issue exists in the github changelogs - the comments in the config files being uploaded break the git parser when it attempts to execute > git dff
 
 Here is a code snippet from the broken changelog : 
+
 `
 @@ -7,19 +7,19 @@ enabled = true
+
 mainMenuLogo = true	mainMenuLogo = true
 `
+
 where it should be : 
 
 `
